@@ -1,0 +1,95 @@
+.footerContainer {
+    background: #273b94;
+    color: #ffffff;
+    padding: 30px 20px;
+}
+.footerContainer a { color: #ffffff; text-decoration: none; }
+.socialIcons {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+.socialIcons a {
+    width: 38px;
+    height: 38px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.12);
+    transition: background 0.2s ease, transform 0.2s ease;
+}
+.socialIcons a:hover { background: rgba(255,255,255,0.25); transform: translateY(-2px); }
+
+.footerNav ul { list-style: none; display: flex; gap: 16px; justify-content: center; margin: 0; padding: 0; }
+.footerNav a { opacity: 0.9; }
+.footerNav a:hover { opacity: 1; }
+
+.footerBottom { text-align: center; margin-top: 8px; opacity: 0.9; font-size: 14px; }
+
+@media (max-width: 500px) {
+    .footerNav ul { flex-direction: column; gap: 8px; align-items: center; }
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+footer {
+    background-color: rgb(7, 27, 105);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+.footerContainer {
+    width: 100%;
+    padding: 16px 20px;
+}
+socialIcons {
+    display: flex;
+    justify-content: center;
+}
+.socialIcons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: transparent;
+    border-radius: 50%;
+}
+.socialIcons a i {
+    font-size: 2em;
+    color: white;
+    opacity: 0.9;
+}
+.socialIcons a:hover {
+    color: #111;
+    transition: 0.5s;
+}
+.socialIcons a:hover i {
+    color: white;
+    transition: 0.5s;
+}
+.footerNav {
+    margin: 8px 0;
+}
+.footerNav ul {
+    display: flex;
+    justify-content: center;
+}
+.footerNav ul il a {
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.footerNav ul il a:hover {
+    opacity: 1;
+}
+.footerBottom {
+    background-color: transparent;
+    padding: 8px 0 0;
+    text-align: center;
+}
